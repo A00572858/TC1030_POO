@@ -191,10 +191,10 @@ private:
 
 //DEclaro el constructor por default y los métodos de la clase
 public:
-    virtual void showwishlist();
-    virtual void addwishlist(string typee, string b_name, string brewery_, string bs, int bitt, float abvv);
-    virtual void delete_W();
-    virtual void drankit();
+    void showwishlist();
+    void addwishlist(string typee, string b_name, string brewery_, string bs, int bitt, float abvv);
+    void delete_W();
+    void drankit();
     Wishlist(){}; //Constructor por default
 };
 
